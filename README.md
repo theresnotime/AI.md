@@ -4,5 +4,5 @@ tbd
 
 ## TODO
 
-- Pick a license (whoops)
-- [awawawa](AI.md)
+- [ ] Pick a license (whoops)
+- [ ] [awawawa](AI.md)

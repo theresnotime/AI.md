@@ -1,7 +1,8 @@
 {
     "scripts": {
-        "test": "markdownlint-cli2 && npm run check-references",
+        "test": "npm run markdown-lint && npm run check-references",
         "fix": "markdownlint-cli2 --fix",
+        "markdown-lint": "markdownlint-cli2",
         "check-references": "node tests/references.js --directory ."
     },
     "devDependencies": {
