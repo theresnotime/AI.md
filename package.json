@@ -1,0 +1,23 @@
+{
+    "scripts": {
+        "test": "markdownlint-cli2 && npm run check-references",
+        "fix": "markdownlint-cli2 --fix",
+        "check-references": "node tests/references.js --directory ."
+    },
+    "devDependencies": {
+        "markdownlint-cli2": "^0.20.0"
+    },
+    "markdownlint-cli2": {
+        "config": {
+            "MD013": false,
+            "no-multiple-blanks": false
+        },
+        "gitignore": true,
+        "globs": [
+            "**/*.md"
+        ],
+        "ignores": [
+            "node_modules/**"
+        ]
+    }
+}
