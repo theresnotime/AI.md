@@ -6,7 +6,7 @@
         "check-references": "node tests/references.js --directory ."
     },
     "devDependencies": {
-        "markdownlint-cli2": "^0.20.0"
+        "markdownlint-cli2": "^0.21.0"
     },
     "markdownlint-cli2": {
         "config": {
